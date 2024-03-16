@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import shiavnski from "./shiavnski.jpg";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
@@ -80,4 +81,5 @@ export {
   mail,
   phone,
   entsol360,
+  shiavnski,
 };

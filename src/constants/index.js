@@ -28,6 +28,7 @@ import {
   six,
   tamara,
   entsol360,
+  shiavnski,
 } from "../assets";
 
 export const navLinks = [
@@ -105,13 +106,13 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Freelance Flutter Developer",
+    title: "Freelance App Developer",
     company_name: "",
     // icon: starbucks,
     letter: "F",
     iconBg: "#383E56",
     // iconBg: "#E6DEDD",
-    date: "March 2020 - February 2023",
+    date: "March 2020 - October 2021",
     points: [
       'Built various apps, including "Book The Driver", "Griot" and "Connected Society" demonstrating expertise Flutter development.',
       "Implemented robust MVVM architecture in Flutter projects, adhering to best practices to enhance code maintainability.",
@@ -123,11 +124,23 @@ const experiences = [
     ],
   },
   {
-    title: "Flutter Developer",
+    title: "Mobile App Developer",
+    company_name: "Shiavnski Technologies",
+    icon: shiavnski,
+    iconBg: "#383E56",
+    date: "October 2021 - December 2022",
+    points: [
+      'Developed "Paketta" mobile app with Flutter Plugin and MVVM architecture for efficient vehicle and stock tracking.',
+      "Integrated sensors for real-time temperature, location, and proximity data visualization.",
+      "Engineered logistics features including route tracking and time-temperature graphs for ice cream crate delivery optimization.",
+    ],
+  },
+  {
+    title: "Mobile App Developer",
     company_name: "EntSol360",
     icon: entsol360,
     iconBg: "#383E56",
-    date: "March 2023 - Current",
+    date: "February 2023 - February 2024",
     points: [
       "Developing and maintaining feature rich e-Learning solutions using Flutter. Features such as interactive quizzes, and live lecture streaming",
       "Collaborating with cross-functional teams including designers and other developers to create high-quality products.",
@@ -219,8 +232,10 @@ const projects = [
     ],
     image: connected,
     isPlayStore: true,
-    source_code_link: "https://play.google.com/store/apps/details?id=comconnected.society",
-    app_store_link: "https://apps.apple.com/in/app/connected-society/id1624949876",
+    source_code_link:
+      "https://play.google.com/store/apps/details?id=comconnected.society",
+    app_store_link:
+      "https://apps.apple.com/in/app/connected-society/id1624949876",
   },
   {
     name: "Book The Driver",
@@ -249,9 +264,8 @@ const projects = [
       },
     ],
     image: bktd,
-    isPlayStore: true,
-    source_code_link: "https://play.google.com/store/apps/details?id=com.bookthedriver.passengerapp",
-    app_store_link: "https://apps.apple.com/us/app/bookthedriver-passenger-app/id1176581953",
+    app_store_link:
+      "https://apps.apple.com/us/app/bookthedriver-passenger-app/id1176581953",
   },
   {
     name: "Edukor e-Learning",
@@ -277,8 +291,10 @@ const projects = [
     ],
     image: tamara,
     isPlayStore: true,
-    app_store_link: "https://apps.apple.com/us/app/edukor-e-learning/id6471849870",
-    source_code_link: "https://play.google.com/store/apps/details?id=com.elearning.edukor",
+    app_store_link:
+      "https://apps.apple.com/us/app/edukor-e-learning/id6471849870",
+    source_code_link:
+      "https://play.google.com/store/apps/details?id=com.elearning.edukor",
   },
   {
     name: "Griot",
@@ -304,7 +320,8 @@ const projects = [
     ],
     image: griot,
     isPlayStore: true,
-    source_code_link: "https://play.google.com/store/apps/details?id=com.griot.stories",
+    source_code_link:
+      "https://play.google.com/store/apps/details?id=com.griot.stories",
   },
   {
     name: "Learn Java",
@@ -330,37 +347,38 @@ const projects = [
     ],
     image: learnJava,
     isPlayStore: true,
-    source_code_link: "https://play.google.com/store/apps/details?id=learn.java.withatulsharma",
+    source_code_link:
+      "https://play.google.com/store/apps/details?id=learn.java.withatulsharma",
   },
-  {
-    name: "Paketta",
-    description:
-      "Paketta, crafted for Hangyo, Paketta showcases my Flutter expertise by enabling real-time monitoring of temperature-sensitive deliveries. This app efficiently tracks trucks, providing key data on location and temperature. Users can set notifications for specific locations and temperature deviations, highlighting my skill in creating streamlined solutions for precise and efficient delivery logistics.",
-    tags: [
-      {
-        name: "Flutter",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "API Integration",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Realtime Sensor Tracking",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Custom Alerts",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Maps & Navigation",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: paketta,
-    isPlayStore: true,
-  },
+  // {
+  //   name: "Paketta",
+  //   description:
+  //     "Paketta, crafted for Hangyo, Paketta showcases my Flutter expertise by enabling real-time monitoring of temperature-sensitive deliveries. This app efficiently tracks trucks, providing key data on location and temperature. Users can set notifications for specific locations and temperature deviations, highlighting my skill in creating streamlined solutions for precise and efficient delivery logistics.",
+  //   tags: [
+  //     {
+  //       name: "Flutter",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "API Integration",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Realtime Sensor Tracking",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Custom Alerts",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "Maps & Navigation",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: paketta,
+  //   isPlayStore: true,
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
